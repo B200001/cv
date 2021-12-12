@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+.middle-container{
+  margin: 50px 0 auto 0;
+}
+.bottom-container{
+  margin-top: 30px;
+  background-color: #66BFBF;
+  padding: 50px;
+  height: 30px;
+}
+.footer-link{
+  color: #11999E;
+  margin-left: 20px;
+  margin-top: 20px;
+  /* position: relative;
+  top: 15px; */
+  font-family: 'Baloo Bhaijaan 2';
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.company{
+  color: #EAF6F6;
+  /* position: relative;
+  top: 10px; */
+  /* margin: 30px; */
+}
+h1{
+  color: #66BFBF;
+  font-size: 90px;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+hr{
+  border: 5px dotted #EAF6F6;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+p{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.top{
+  background-color: #EAF6F6;
+  position: relative;
+  padding: 100px;
+}
+.d1{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+.d2{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+.top-cloud{
+  position: relative;
+  left: 200px;
+}
+.bottom-cloud{
+  position: absolute;
+}
+.profile-img{
+    border-radius: 100%;
+    height: 163px;
+    position: relative;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+.cooking-img{
+  border-radius: 100%;
+  height: 163px;
+  width: 25%;
+  float: left;
+  position: relative;
+}
+.cooking-text{
+  text-align: left;
+  line-height: 2;
+  position: relative;
+  left: 30px;
+}
+.chillies-img{
+  border-radius: 100%;
+  height: 163px;
+  width: 25%;
+  float: right;
+  position: relative;
+}
+.chillies-text{
+  text-align: left;
+  line-height: 2;
+  position: relative;
+  right: 30px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
